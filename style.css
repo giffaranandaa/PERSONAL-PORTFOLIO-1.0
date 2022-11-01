@@ -409,6 +409,9 @@ header.sticky{
 	#menu-icon{
 		display: block;
 	}
+    .logo{
+        display: none;
+    }
 	.home{
 		min-height: 80vh;
 	}
@@ -442,6 +445,9 @@ header.sticky{
 }
 
 @media (max-width: 800px){
+    .logo{
+        display: none;
+    }
 	.home{
 		grid-template-columns: 1fr;
 		min-height: 130vh;
@@ -477,4 +483,7 @@ header.sticky{
 	.contact .action form input[type="email"] {
 		width: 310px;
 	}
+    .logo{
+        display: none;
+    }
 }
